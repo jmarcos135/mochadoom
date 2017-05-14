@@ -11,28 +11,28 @@ import defines.ammotype_t;
 import defines.card_t;
 import doom.weapontype_t;
 
-// Emacs style mode select   -*- C++ -*- 
-//-----------------------------------------------------------------------------
+// This file is part of Mocha Doom.
+// Copyright (C) 1993-1996  id Software, Inc.
+// Copyright (C) 2010-2013  Victor Epitropou
+// Copyright (C) 2016-2017  Alexandre-Xavier Labonté-Lamoureux
 //
-// $Id: Defines.java,v 1.48 2012/09/24 17:16:22 velktron Exp $
+// Mocha Doom is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
 //
-// Copyright (C) 1993-1996 by id Software, Inc.
-//
-// This program is free software; you can redistribute it and/or
-// modify it under the terms of the GNU General Public License
-// as published by the Free Software Foundation; either version 2
-// of the License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
+// Mocha Doom is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along withMocha Doom.  If not, see <http://www.gnu.org/licenses/>.
 //
 // DESCRIPTION:
 //  Internally used data structures for virtually everything,
 //   key definitions, lots of other stuff.
 //
-//-----------------------------------------------------------------------------
 
 //#ifndef __DOOMDEF__
 //#define __DOOMDEF__

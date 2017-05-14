@@ -6,21 +6,26 @@ import java.awt.image.DataBufferUShort;
 import static rr.LightsAndColors.LIGHTLEVELS;
 import m.BBox;
 
-/* Emacs style mode select   -*- C++ -*- 
-//-----------------------------------------------------------------------------
 //
 // $Id: BufferedRenderer16.java,v 1.4 2012/11/06 16:07:00 velktron Exp $
 //
-// Copyright (C) 1993-1996 by id Software, Inc.
+// This file is part of Mocha Doom.
+// Copyright (C) 1993-1996  id Software, Inc.
+// Copyright (C) 2010-2013  Victor Epitropou
+// Copyright (C) 2016-2017  Alexandre-Xavier Labonté-Lamoureux
 //
-// This source is available for distribution and/or modification
-// only under the terms of the DOOM Source Code License as
-// published by id Software. All rights reserved.
+// Mocha Doom is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
 //
-// The source is distributed in the hope that it will be useful,
+// Mocha Doom is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// FITNESS FOR A PARTICULAR PURPOSE. See the DOOM Source Code License
-// for more details.
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Mocha Doom.  If not, see <http://www.gnu.org/licenses/>.
 //
 // $Log: BufferedRenderer16.java,v $
 // Revision 1.4  2012/11/06 16:07:00  velktron
@@ -49,9 +54,6 @@ import m.BBox;
 //	Functions to draw patches (by post) directly to screen.
 //	Functions to blit a block to the screen.
 //
-//-----------------------------------------------------------------------------
- * 
- */
 
 public class BufferedRenderer16 extends SoftwareVideoRenderer16 {
 	

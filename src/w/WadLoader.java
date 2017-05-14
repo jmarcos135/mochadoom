@@ -1,26 +1,28 @@
-// Emacs style mode select -*- C++ -*-
-// -----------------------------------------------------------------------------
 //
 // $Id: WadLoader.java,v 1.64 2014/03/28 00:55:32 velktron Exp $
 //
-// Copyright (C) 1993-1996 by id Software, Inc.
+// This file is part of Mocha Doom.
+// Copyright (C) 1993-1996  id Software, Inc.
+// Copyright (C) 2010-2013  Victor Epitropou
+// Copyright (C) 2016-2017  Alexandre-Xavier Labonté-Lamoureux
 //
-// This source is available for distribution and/or modification
-// only under the terms of the DOOM Source Code License as
-// published by id Software. All rights reserved.
+// Mocha Doom is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
 //
-// The source is distributed in the hope that it will be useful,
+// Mocha Doom is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// FITNESS FOR A PARTICULAR PURPOSE. See the DOOM Source Code License
-// for more details.
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
 //
-
+// You should have received a copy of the GNU General Public License
+// along with Mocha Doom.  If not, see <http://www.gnu.org/licenses/>.
 //
 //
 // DESCRIPTION:
 // Handles WAD file header, directory, lump I/O.
 //
-// -----------------------------------------------------------------------------
 
 package w;
 
